@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/hotellayout" >
+
+    <TextView
+        android:id="@+id/hotelname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:isScrollContainer="true"
+        android:text="@+id/hotelname"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+    
+    <TextView
+        android:id="@+id/hotelcontacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:isScrollContainer="true"
+        android:text="@+id/hotelcontacts"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/hotelprices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hotelstars"
+        android:layout_alignParentLeft="true"
+        android:isScrollContainer="true"
+        android:text="@+id/hotelprices"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/hotelincludes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hotelprices"
+        android:layout_alignParentLeft="true"
+        android:isScrollContainer="true"
+        android:text="@+id/hotelincludes"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/hotelstars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hotelcontacts"
+        android:layout_alignParentLeft="true"
+        android:isScrollContainer="true"
+        android:text="@+id/hotelstars"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/hoteldescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hotelincludes"
+        android:layout_alignParentLeft="true"
+        android:isScrollContainer="true"
+        android:text="@+id/hoteldescription"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+    
+</RelativeLayout>

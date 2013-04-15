@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bulgarian Trip Advisor</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Main Menu</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_hotels">City</string>
+    <string name="title_activity_hotel">Hotel</string>
+    <string name="title_activity_city">Hotels</string>
+    <string name="title_activity_choose">Choose</string>
+    <string name="title_activity_things_to_do">ThingsToDoActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_thing">ThingActivity</string>
+    <string name="title_activity_splash_fragment">SplashFragment</string>
+    <string name="title_activity_fragment">Fragment</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="title_activity_selection_fragment">SelectionFragment</string>
+
+</resources>
